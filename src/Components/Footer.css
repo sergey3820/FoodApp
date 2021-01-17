@@ -1,0 +1,11 @@
+.footer_main {
+    border: 1px solid red;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer_con {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+}

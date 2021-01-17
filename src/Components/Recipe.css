@@ -1,0 +1,89 @@
+.recipeMain {
+    width: 40%;
+    margin-top: 13%;
+    padding: 3% 2%;
+    background-color: white;
+    box-shadow: 5px 5px 21px 5px #000000;
+    transition: 1s ease;
+}
+
+.recipeMain:hover {
+    box-shadow: 5px 5px 21px 5px rgb(47, 172, 47);
+    transition: 1s ease;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.food_title {
+    text-align: center;
+}
+
+.ol_main {
+    margin-top: 7%;
+}
+
+.li_items {
+    font-size: 20px;
+    margin-top: 3%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.imgBlock {
+    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .li_items {
+        font-size: 17px;
+    }
+
+    .food_title {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .imgBlock {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .li_items {
+        font-size: 15px;
+    }
+
+    .food_title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .li_items {
+        font-size: 12px;
+    }
+
+    .food_title {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .li_items {
+        font-size: 10px;
+    }
+
+    .food_title {
+        font-size: 7px;
+    }
+}
